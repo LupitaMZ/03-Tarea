@@ -1,7 +1,18 @@
-#menu-navegacion {
-    font-family: Impact;
-    font-size: 16 px;
-    background-color: coral;
-    color: white;
+/*Estos dos parrafos son para elimiar el paddin por defecto y hacer que nuestra lista sea vertical */
+#navegacion ul { padding: 0;}
+#navegacion li { display: inline}
 
+/*Aqui inicia la parte en que se modifica el poanel de navegacion*/
+#navegacion li a 
+{
+    font-family: Impact;
+    font-size: 20px;
+    padding: 10px;
+    background-color: coral;
+    color:white;
+}
+#los-mas-ricos
+{    
+    color:rgb(0, 0, 0);
+    font-size: 16;
 }
