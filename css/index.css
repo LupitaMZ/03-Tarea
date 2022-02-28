@@ -1,18 +1,40 @@
-/*Estos dos parrafos son para elimiar el paddin por defecto y hacer que nuestra lista sea vertical */
-#navegacion ul { padding: 0;}
-#navegacion li { display: inline}
-
-/*Aqui inicia la parte en que se modifica el poanel de navegacion*/
-#navegacion li a 
-{
-    font-family: Impact;
-    font-size: 20px;
-    padding: 10px;
-    background-color: coral;
-    color:white;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
 }
-#los-mas-ricos
-{    
-    color:rgb(0, 0, 0);
-    font-size: 16;
+.contenedor{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 4%;
+    padding-right: 4%; 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navegacionBarra{
+    width: 100%;
+    display: flex;
+    align-items : center;
+}
+.logo{
+    width: 25%;
+    cursor: pointer;
+    margin: 30px 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{/*para poder tener la de lista de hipervinculos a la izquiera*/
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+
+}
+nav ul li a{
+    
 }
