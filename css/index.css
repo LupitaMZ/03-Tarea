@@ -32,9 +32,26 @@ nav ul li{/*para poder tener la de lista de hipervinculos a la izquiera*/
 }
 nav ul li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 16px;
+    color: black;
 
 }
-nav ul li a{
-    
+nav ul li a:hover{
+    color: coral;
 }
+
+
+
+
+
+footer{
+    background-color: coral;
+    margin: 0 30px;
+    text-align:  center;
+    font-size: 14px;
+    color: white;
+    border-radius: 95px 95px;
+    font-weight: bold;
+
+}
+
