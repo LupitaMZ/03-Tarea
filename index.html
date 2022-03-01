@@ -1,42 +1,67 @@
 <html>
 
 <head>
-    <title>La paliceña</title>
+    <title>La palizeña</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body>
-    <header>
-        <nav id="navegacion">
+<body><!--Todo dentro de body afecta a mi css-->
+    <div class="contenedor"><!--El prinicipal-->
+        <!--div para la barra de navegacion-->
+        <div class="navegacionBarra">
+            <p class="logo">LA PALIZEÑA</p> 
+
+        <nav>
             <ul>
             <li><a href="index.html">Bienvenidos</a></li>
-<!--Aqui podria poner el logo <img src="images/logo2.1.1.jpg" width="400px" height="200px" alt="Logo de la tienda"/>=-->                
             <li><a href="menu.html">Menú</a></li>
             <li><a href="crearCuenta.html">Crear Cuenta</a></li>
             <li><a href="Promociones.html">Promociones</a></li>
             <li><a href="sobreNosotros.html">Acerca de nosotros</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <section id="los-mas-ricos">
-            Los plastillos más pedidos son:
-            <img src="images/Comida1.jfif" alt="tacos de cochinita">
-            <p>Tacos de cochinita</p>
-            <img src="images/Comida3.jpg" alt="tacos al pastor">
-            <p>Tacos de cochinita</p>
-        </section>
-        <section id="Las mejores ofertas">
-            Las ofertas de este mes son:
+        </div>
+        <div class="container">
+            
+            <h2>Los plastillos más pedidos</h2>
+            <ul class="slider">
+                <Li id="slide1">
+                    <img src="images/Comida1.jfif">
+                </Li>
+                <Li id="slide2">
+                    <img src="images/Comida2.jfif">
+                </Li>
+                <Li id="slide3">
+                    <img src="images/Comida3.jpg">
+                </Li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+            </ul>
+         <!--<img src="images/Comida1.jfif" class=images alt="tacos de cochinita">
+            <p class="nombre_platillo"> Tacos de cochinita</p>
+            <img src="images/Comida2.jfif" class="images" alt=""> -->
 
-        </section>
-    </main>
-    <footer id="pie de pagina">
-        Contancto
-        Correo: lapalicena.restaurante@gmail.com
-        Teléfono: 9381183830
-        Ubicación: Cd del Carmen, Campeche
+        </div>
+    
+    <footer id="pie_de_pagina">
+        Contancto <br>
+        lapalicena.restaurante@gmail.com 
+        | 9381183830 |
+         Cd del Carmen, Campeche<br>
     </footer>
-</body>
 
+       
+</body>
 </html>
