@@ -90,7 +90,6 @@ ul.slider li:first-child{
 ul.slider li:target{
     opacity: 1;
 }
-
 /*Los botones*/
 .menu{
     text-align: center;
@@ -111,9 +110,6 @@ ul.slider li:target{
     font-size: 20px;
     border-radius: 100%;
 }
-
-
-
 footer{
     background-color: rgb(252, 100, 45);
     margin: 60px 60px;
