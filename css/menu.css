@@ -1,0 +1,352 @@
+
+html{
+    font-family: 'Patua One', cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2B705;
+}
+.logo{
+    font-size: 36PX;
+    color: white;
+}
+.contenedor{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 4%;
+    padding-right: 4%; 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navegacionBarra{
+    width: 100%;
+    display: flex;
+    align-items : center;
+}
+.logo{
+    width: 25%;
+    cursor: pointer;
+    margin: 30px 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{/*para poder tener la de lista de hipervinculos a la izquiera*/
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+nav ul li a:hover{
+    color: #599DD9;
+}
+/*se inicia los productos*/
+div h2{
+    text-align: center;
+    border-radius: 50px 50px;
+    background-color: #599DD9;
+    color: white;
+}
+.menu{
+    display: flex-box;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.tacos{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+ .tacos h2{
+    font-size: 24;
+}
+.tacos h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.tacos p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+.tacos p{
+    margin: 30px 0;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline:none;
+    background-color: #599DD9;
+    border-radius: 6px;
+    cursor: pointer;
+    color:white}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tacos::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background:lightseagreen;
+    left: -40px;
+    top: 8px;
+}
+.img-tacos{
+    position:relative;
+    flex-basis : 50%;
+    display: flex;
+    align-items: center;
+}
+.img-tacos .imagen-taquitos{
+    width: 50%;
+}
+/*tacos al pastor*/
+.tacos-pastor{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+ .tacos-pastor h2{
+    font-size: 24;
+}
+.tacos-pastor h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.tacos-pastor p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+.tacos-pastor{
+    margin: 30px 0;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline:none;
+    background-color: #599DD9;
+    border-radius: 6px;
+    cursor: pointer;
+    color:white}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tacos-pastor::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background:lightseagreen;
+    left: -40px;
+    top: 8px;
+}
+.img-tacos-pastor{
+    position:relative;
+    flex-basis : 50%;
+    display: flex;
+    align-items: center;
+}
+.img-tacos-pastor .imagen-taquitos-pastor{
+    width: 50%;
+}
+/*pozole*/
+.pozole{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+ .pozole h2{
+    font-size: 24;
+}
+.pozole h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.pozole p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+.pozole p{
+    margin: 30px 0;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline:none;
+    background-color: #599DD9;
+    border-radius: 6px;
+    cursor: pointer;
+    color:white
+}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pozole::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background:lightseagreen;
+    left: -40px;
+    top: 8px;
+}
+.img-pozole{
+    position:relative;
+    flex-basis : 50%;
+    display: flex;
+    align-items: center;
+}
+.img-pozole .imagen-pozole{
+    width: 50%;
+}
+/*frijol con puerco*/
+.FrijolPuerco{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+ .FrijolPuerco h2{
+    font-size: 24;
+}
+.FrijolPuerco h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.FrijolPuerco p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+.FrijolPuerco p{
+    margin: 30px 0;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline:none;
+    background-color: #599DD9;
+    border-radius: 6px;
+    cursor: pointer;
+    color:white
+}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FrijolPuerco::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background:lightseagreen;
+    left: -40px;
+    top: 8px;
+}
+.img-FrijolPuerco{
+    position:relative;
+    flex-basis : 50%;
+    display: flex;
+    align-items: center;
+}
+.img-FrijolPuerco .imagen-FrijolPuerco{
+    width: 50%;
+}
+/*flautas*/
+.Flautas{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+ .Flautas h2{
+    font-size: 24;
+}
+.Flautas h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.Flautas p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+.Flautas p{
+    margin: 30px 0;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline:none;
+    background-color: #599DD9;
+    border-radius: 6px;
+    cursor: pointer;
+    color:white
+}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Flautas::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background:lightseagreen;
+    left: -40px;
+    top: 8px;
+}
+.img-Flautas{
+    position:relative;
+    flex-basis : 50%;
+    display: flex;
+    align-items: center;
+}
+.img-Flautas .imagen-Flautas{
+    width: 50%;
+}
+footer{
+    background-color: rgb(252, 100, 45);
+    margin: 60px 60px;
+    text-align:  center;
+    font-size: 16px;
+    color: white;
+    border-radius: 95px 95px;
+}
