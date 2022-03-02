@@ -9,9 +9,9 @@ body{
 .logo{
     font-size: 36PX;
     color: white;
-    padding: 40px;
+    padding: 30px auto;
 }
-/*.contenedor{
+.contenedor{
     width: 100%;
     min-height: 100vh;
     padding-left: 4%;
@@ -23,19 +23,18 @@ body{
     width: 100%;
     display: flex;
     align-items : center;
-}*/
+}
 .logo{
     width: 25%;
     cursor: pointer;
-    margin: 30px 0;
-    text-decoration: none;
+    margin: 20px ;
 }
-/*
+
 nav{
     flex: 1;
     text-align: right;
 }
-nav ul li{/*para poder tener la de lista de hipervinculos a la izquiera...
+nav ul li{/*para poder tener la de lista de hipervinculos a la izquiera*/
     
    list-style: none;
     display: inline-block;
@@ -50,8 +49,6 @@ nav ul li a {
 nav ul li a:hover{
     color: #599DD9;
 }
-*/
-
 h1{
     text-align: center;
     color: white;
