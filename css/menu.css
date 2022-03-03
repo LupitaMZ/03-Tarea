@@ -53,12 +53,14 @@ div h2{
     border-radius: 50px 50px;
     background-color: #599DD9;
     color: white;
+
 }
 .menu{
     display: flex-box;
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
+    flex-wrap: wrap;
 }
 .tacos{
     flex-basis: 40%;
@@ -171,7 +173,7 @@ button:hover{
 .img-tacos-pastor .imagen-taquitos-pastor{
     width: 50%;
 }
-/*pozole*/
+/* /*/*pozole*/
 .pozole{
     flex-basis: 40%;
     position: relative;
