@@ -52,6 +52,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
     background-color:aqua;
     background-size: 400px 100px;
+    justify-content: space-around;
 }
 /* .tacos{
     border: 4px solid saddlebrown;
