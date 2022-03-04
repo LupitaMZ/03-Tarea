@@ -53,9 +53,10 @@ nav ul li a:hover{
     background-color:aqua;
     background-size: 400px 100px;
 }
-.tacos{
+/* .tacos{
     border: 4px solid saddlebrown;
-    padding: 20px;
+    margin: -10px;
+    background-color: darkorange;
 }
 .tacos h2{
     background-color: #599DD9;
@@ -63,11 +64,11 @@ nav ul li a:hover{
     border-radius: 95px ;
     background-size: 15px 15px;    
 }
-img{
-    height: 400px;/*altura*/
-    width: 400px;/*ancho*/  
-   ;
-}
+/*img{
+    height: 400px; altura
+    width: 400px;ancho* 
+    margin: -10px;
+} */
 
 
 
