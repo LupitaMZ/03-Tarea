@@ -84,17 +84,17 @@ img{
 .tacos h3 {
     background-color: none;
     font-size: 20;
-    padding: 10px;
+    padding: -10px 20px 10px -20px;
 }
 p {
     background-color: none;
     font-size: 16;
-    padding: -10px 10px 10px -10px;
+    padding: -10px 20px 10px -20px;
 }
 h4{
     background-color: none;
     font-size: 16;
-    padding:  -10px;
+    padding:  -10px 20px 10px -20px;
 }
 
 
