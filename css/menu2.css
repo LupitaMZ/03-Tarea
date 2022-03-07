@@ -76,12 +76,21 @@ img{
     padding: 10px;  
  }  
  /*opcion a de centrado*/
- .imagen-taquitos{
+.imagen-taquitos{
     display:block;
     margin-left: auto;
     margin-right: auto;
  }
-
+ .imagen-pozole{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ imagen-FrijolPuerco{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 .tacos h3 {
     background-color: none;
     font-size: 20;
