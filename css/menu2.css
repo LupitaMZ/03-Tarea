@@ -50,14 +50,18 @@ nav ul li a:hover{
 .contenedorMenu {
     display: flex;
     flex-wrap: wrap;
-    background-color:aqua;
     background-size: 400px 100px;
-    justify-content: space-around;
+    gap: 20px;
+    /* justify-content: space-around; */
 }
-/* .tacos{
-    border: 4px solid saddlebrown;
-    margin: -10px;
+.tacos{
+    border-radius: 10px solid saddlebrown;
     background-color: darkorange;
+    padding:20px;
+    background-size: cover;
+    background-position: center center;
+
+    width:calc(33.33%-20px);
 }
 .tacos h2{
     background-color: #599DD9;
@@ -65,11 +69,21 @@ nav ul li a:hover{
     border-radius: 95px ;
     background-size: 15px 15px;    
 }
-/*img{
-    height: 400px; altura
-    width: 400px;ancho* 
-    margin: -10px;
-} */
+img{
+    height: 400px; /*altura*/
+    width: 400px;/*ancho */
+    justify-content: center; 
+    padding: 20px 20px;
+ } 
+ button{
+     cursor: pointer;
+     align-items: 95px;
+     order: initial;
+ }
+.tacos h3 p h4{
+    padding: 20px 20px;
+}
+
 
 
 
