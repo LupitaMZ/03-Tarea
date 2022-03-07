@@ -69,7 +69,12 @@ nav ul li a:hover{
     border-radius: 95px ;
     background-size: 15px 15px;    
 }
-
+img{
+    height: 200px; /*altura*/
+    width: 400px; /*ancho */
+    padding: 20px;
+    justify-content: center; 
+ }  
 
 .tacos h3 {
     background-color: none;
@@ -86,12 +91,7 @@ h4{
     font-size: 16;
     padding:  -10px 20px ;
 }
-img{
-    height: 200px; /*altura*/
-    width: 200px; /*ancho */
-    justify-content: center; 
-    padding: 20px 20px;
- }  
+
 button{
     cursor: pointer;
     width:50%;
