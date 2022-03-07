@@ -55,7 +55,7 @@ nav ul li a:hover{
     /* justify-content: space-around; */
 }
 .tacos{
-    border-radius: 10px solid saddlebrown;
+    border-radius: 10px;
     background-color: darkorange;
     padding:20px;
     background-size: cover;
@@ -70,10 +70,14 @@ nav ul li a:hover{
     background-size: 15px 15px;    
 }
 img{
+    border-radius: 20px;
     height: 200px; /*altura*/
-    width: 400px; /*ancho */
-    padding: 20px;
-    justify-content: center; 
+    /* width: 400px; ancho  */
+    padding: 20px -10px;
+    /* justify-content: center;  */
+    /* text-align: center; */
+    margin-left:100px;
+    margin-right:100px;
  }  
 
 .tacos h3 {
@@ -97,6 +101,7 @@ button{
     width:50%;
     margin-left:25%;
     margin-right:25%;
+    border-radius: 10px;
 }
 footer{
     background-color: rgb(252, 100, 45);
