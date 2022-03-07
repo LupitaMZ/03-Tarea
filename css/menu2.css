@@ -70,15 +70,15 @@ nav ul li a:hover{
     background-size: 15px 15px;    
 }
 img{
-    height: 400px; /*altura*/
-    width: 400px;/*ancho */
+    height: 200px; /*altura*/
+    width: 200px;/*ancho */
     justify-content: center; 
     padding: 20px 20px;
  } 
  button{
      cursor: pointer;
-     align-items: 95px;
-     order: initial;
+     order: -50px;
+     
  }
 .tacos h3 p h4{
     padding: 20px 20px;
