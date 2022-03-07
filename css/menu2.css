@@ -61,24 +61,26 @@ nav ul li a:hover{
     background-size: cover;
     background-position: center center;
 
-    width:calc(33.33%-20px);
+    width:calc(33.33% -10px);
 }
 .tacos h2{
     background-color: #599DD9;
     text-align: center;
     border-radius: 95px ;
-    background-size: 15px 15px;    
+    background-size: 15px 15px;
+    color:white;    
 }
 img{
     border-radius: 20px;
     height: 200px; /*altura*/
-    /* width: 400px; ancho  */
-    padding: 20px -10px;
-    /* justify-content: center;  */
-    /* text-align: center; */
-    margin-left:100px;
-    margin-right:100px;
+    padding: 10px;  
  }  
+ /*opcion a de centrado*/
+ .image-taquitos{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 .tacos h3 {
     background-color: none;
