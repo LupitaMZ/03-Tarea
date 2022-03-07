@@ -75,12 +75,12 @@ img{
     height: 200px; /*altura*/
     padding: 10px;  
  }  
- /*opcion a de centrado*/
+ /*opcion a de centrado
  .image-taquitos{
     display:block;
     margin-left: auto;
     margin-right: auto;
- }
+ }*/
 
 .tacos h3 {
     background-color: none;
